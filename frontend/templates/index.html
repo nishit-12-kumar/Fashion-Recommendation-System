@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>👗 Fashion Recommendation System</h1>
+    <p>Select products you like</p>
+</header>
+
+<main>
+    <section>
+        <h2>Select Products</h2>
+        <div id="imageGrid" class="image-grid"></div>
+    </section>
+
+    <button id="recommendBtn" disabled>
+        Get Recommendations
+    </button>
+
+    <section>
+        <h2>Recommended Products</h2>
+        <div id="recommendationGrid" class="image-grid"></div>
+    </section>
+</main>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
