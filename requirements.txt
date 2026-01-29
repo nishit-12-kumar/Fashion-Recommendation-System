@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+
+torch
+torchvision
+fastai
+
+faiss-cpu
+gdown
+opencv-python
+pillow
+
+scikit-learn
+
+flask
+flask-cors
